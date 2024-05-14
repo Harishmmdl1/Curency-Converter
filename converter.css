@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #eeac99;
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: #a28089;
+  font-size: 1.8rem;
+}
+
+.convert,
+.exchange {
+  font-family: "Quicksand", cursive;
+  font-size: 20px;
+  font-weight: 600;
+  color: #a28089;
+  padding-right: 20px;
+}
+
+input {
+  width: 100px;
+  height: 25px;
+  font-size: 15px;
+  margin: 5px auto;
+  outline: 0;
+}
+
+#original-currency-amount {
+  padding-left: 50px;
+}
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 15px;
+  font-weight: 800;
+  color: #a28089;
+  font-family: "Quicksand", cursive;
+}
+
+select {
+  width: 80px;
+  height: 35px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 10px;
+  outline: 0;
+}
+
+#exchange {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 20px;
+  outline: 0;
+  color: #3c4858;
+  border: 4px solid #a28089;
+}
+
+#exchange:active,
+button:active {
+  transform: scale(0.9);
+}
+
+#output-text {
+  display: none;
+  padding: 10px;
+  margin: 5px;
+  font-size: 22px;
+  color: #838060;
+}
+
+span {
+  color: #4040a1;
+
+  font-size: 30px;
+}
+
+#exchange-rate {
+  cursor: default;
+}
+
+footer {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+a {
+  color: #ffffff;
+  bottom: 0;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#container {
+  border: 2px solid black;
+  background-color: #edf7f6;
+  padding: 25px 50px;
+  border-radius: 10px;
+}
